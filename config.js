@@ -15,7 +15,7 @@ const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyBdwOujBXGWutng_1Tf
 // Opsional: isi paletKustom dengan 11 warna hex (tingkat 50-950) untuk warna sendiri, contoh:
 //   paletKustom: { 50:"#...", 100:"#...", 200:"#...", 300:"#...", 400:"#...", 500:"#...", 600:"#...", 700:"#...", 800:"#...", 900:"#...", 950:"#..." }
 const CONFIG_TEMA = {
-  warna: "indigo"
+  warna: "violet"
 };
 
 // --- CATATAN PENYESUAIAN: KONFIGURASI HEADER ---
@@ -25,7 +25,7 @@ const CONFIG_TEMA = {
 const CONFIG_HEADER = {
   namaPemda: "Pemerintah Kabupaten Kota", // Muncul sebagai lencana (badge) di atas
   namaAplikasi: "KOTAK SARAN & ADUAN ONLINE", // Judul utama (h1)
-  keterangan: "Kanal Pengaduan Resmi - Dinas Pendidikan Kab. Kota ", // Teks penjelasan kecil di bawah
+  keterangan: "Kanal Pengaduan Resmi - Dinas Pendidikan Kabupaten Kota ", // Teks penjelasan kecil di bawah
   
   logoUrl: "./public/asset/logo.svg", // Path relatif logo
   
