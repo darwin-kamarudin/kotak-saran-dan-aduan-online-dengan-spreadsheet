@@ -15,7 +15,7 @@ const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyBdwOujBXGWutng_1Tf
 // Opsional: isi paletKustom dengan 11 warna hex (tingkat 50-950) untuk warna sendiri, contoh:
 //   paletKustom: { 50:"#...", 100:"#...", 200:"#...", 300:"#...", 400:"#...", 500:"#...", 600:"#...", 700:"#...", 800:"#...", 900:"#...", 950:"#..." }
 const CONFIG_TEMA = {
-  warna: "violet"
+  warna: "orange"
 };
 
 // --- CATATAN PENYESUAIAN: KONFIGURASI HEADER ---
@@ -47,4 +47,5 @@ const CONFIG_KATEGORI = [
   "Pujian dan Aspirasi",
   "Pengaduan dan Keluhan",
   "Saran & Masukan Konstruktif",
+  "Lainnya",
 ];
