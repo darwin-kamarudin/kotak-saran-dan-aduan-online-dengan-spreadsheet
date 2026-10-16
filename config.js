@@ -3,7 +3,7 @@
 // ==========================================
 
 // Ganti nilai di bawah ini dengan URL Web App Google Apps Script Anda (pastikan berakhiran /exec)
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyBdwOujBXGWutng_1TfHQWMUo7zV7dAQ4vR8wcJQ93VuWzD-Nqj851jaF-h1RWpnAU/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzBHSsTosIv2DXaeG4a2TR6Ocxwd1fC0Nu_oTDKMwOz4y5Zgr0x8i4ArpgDBh0vkBgq/exec";
 
 // --- TEMA WARNA APLIKASI ---
 // Satu pengaturan ini mengubah warna header, tombol, fokus input, dan aksen di seluruh halaman.
@@ -15,7 +15,7 @@ const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyBdwOujBXGWutng_1Tf
 // Opsional: isi paletKustom dengan 11 warna hex (tingkat 50-950) untuk warna sendiri, contoh:
 //   paletKustom: { 50:"#...", 100:"#...", 200:"#...", 300:"#...", 400:"#...", 500:"#...", 600:"#...", 700:"#...", 800:"#...", 900:"#...", 950:"#..." }
 const CONFIG_TEMA = {
-  warna: "orange"
+  warna: "teal"
 };
 
 // --- CATATAN PENYESUAIAN: KONFIGURASI HEADER ---
@@ -24,7 +24,7 @@ const CONFIG_TEMA = {
 // --- KONFIGURASI HEADER ---
 const CONFIG_HEADER = {
   namaPemda: "Pemerintah Kabupaten Kota", // Muncul sebagai lencana (badge) di atas
-  namaAplikasi: "KOTAK SARAN & ADUAN ONLINE", // Judul utama (h1)
+  namaAplikasi: "LAYANAN PENGADUAN PUBLIK ONLINE", // Judul utama (h1)
   keterangan: "Kanal Pengaduan Resmi - Dinas Pendidikan Kabupaten Kota ", // Teks penjelasan kecil di bawah
   
   logoUrl: "./public/asset/logo.svg", // Path relatif logo
